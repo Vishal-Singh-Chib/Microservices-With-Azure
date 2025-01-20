@@ -3,20 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Management.Api", "Wpm.Management.Api\Wpm.Management.Api.csproj", "{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpm.Management.Api", "Wpm.Management.Api\Wpm.Management.Api.csproj", "{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpm.Clinic", "Wpm.Clinic\Wpm.Clinic.csproj", "{FC24DA5A-01FF-4057-8658-5CE11C850C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D949FCB-E536-4EB8-94A3-2B8ED84040D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC24DA5A-01FF-4057-8658-5CE11C850C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC24DA5A-01FF-4057-8658-5CE11C850C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC24DA5A-01FF-4057-8658-5CE11C850C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC24DA5A-01FF-4057-8658-5CE11C850C81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33C17136-DE62-4873-B2D3-8437D2C19415}
 	EndGlobalSection
 EndGlobal
